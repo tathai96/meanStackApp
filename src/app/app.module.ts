@@ -5,6 +5,7 @@ import { MatInputModule, MatCardModule, MatButtonModule, MatToolbarModule, MatEx
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { PostCreateComponent } from './posts/post-create/post-create.component';
 import { HeaderComponent } from './header/header.component';
 import { PostListComponent } from './posts/post-list/post-list.component';
@@ -20,6 +21,7 @@ import { PostsService } from './posts/posts.service';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FontAwesomeModule,
     FormsModule,
     MatInputModule,
     MatCardModule,
